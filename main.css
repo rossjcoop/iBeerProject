@@ -54,15 +54,14 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-    background-image: url(../ibeer_starter_files/img/header-img.jpg);
+    background-image: url(./img/header-img.jpg);
     /*
         TODO: 
         - Add a background image "header-img.jpg"
         make sure that the path to the image is correct
     */
-
     background-size: cover;
-    background-position: top center;
+   
 }
 #site-header div h1,
 #site-header div h3{
@@ -97,7 +96,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     /*
         TODO: 
@@ -119,6 +118,8 @@ main{
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 500px;
     position: relative;
+    top: 0px;
+    margin-top: -50px;
     /*
 
         TODO: 
@@ -133,6 +134,7 @@ aside{
     width: 200px; 
     height: 1400px; 
     align-self: top right;
+    margin-top: -50px;
 
     /*
         TODO: 
